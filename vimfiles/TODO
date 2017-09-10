@@ -1,0 +1,14 @@
+
+Trovare/testare plugin vim per:
+
+- IntelliSense
+  YouCompleteMe ha una parte compilata
+  NeoComplete sembra essere un assemblatore senza engine sottostanti (comunque sembra meglio della finestra originale di vim ctrl-p)
+
+- Mostra documentazione mentre scrivi
+  ???
+
+- Snippet
+  UltiSnip
+  SnipMate
+

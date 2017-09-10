@@ -1,0 +1,12 @@
+g:semanticBlacklistOverride	semantic-highlight.txt	/*g:semanticBlacklistOverride*
+g:semanticEnableBlacklist	semantic-highlight.txt	/*g:semanticEnableBlacklist*
+g:semanticEnableFileTypes	semantic-highlight.txt	/*g:semanticEnableFileTypes*
+g:semanticGUIColors	semantic-highlight.txt	/*g:semanticGUIColors*
+g:semanticPersistCache	semantic-highlight.txt	/*g:semanticPersistCache*
+g:semanticPersistCacheLocation	semantic-highlight.txt	/*g:semanticPersistCacheLocation*
+g:semanticTermColors	semantic-highlight.txt	/*g:semanticTermColors*
+g:semanticUseCache	semantic-highlight.txt	/*g:semanticUseCache*
+semantic-highlight	semantic-highlight.txt	/*semantic-highlight*
+semantic-highlight-contents	semantic-highlight.txt	/*semantic-highlight-contents*
+semantic-highlight-variables	semantic-highlight.txt	/*semantic-highlight-variables*
+semantic-highlight.txt	semantic-highlight.txt	/*semantic-highlight.txt*

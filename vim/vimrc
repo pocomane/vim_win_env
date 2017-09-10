@@ -1,0 +1,16 @@
+
+let $VIMRUNTIME=$VIM.'/../vimrt'
+let $VIMHOME=$VIM . '/../vimfiles'
+"set packpath=$VIMRUNTIME
+
+set helpfile=$VIMRUNTIME/doc/help.txt
+
+set runtimepath=
+set runtimepath+=$VIM/../vimfiles
+set runtimepath+=$VIM/../vimrt
+
+"runtime! vimrc
+
+set viminfo='100,<50,s10,h,rA:,rB:,nC:\Users\ddifilippo/vimcache/viminfo
+so $VIM/../vimfiles/vimrc
+
