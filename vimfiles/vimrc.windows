@@ -1,0 +1,19 @@
+
+" Load from your vimrc with:
+"   let $VIMFILES="$VIM/../../../vimfiles"
+"   so $VIMFILES/vimrc.windows
+
+" Environment setup
+let rootpath = fnamemodify($VIM.'/../..', ':p')
+exe 'cd '.rootpath
+
+" External software path - remove if not needed
+let $PATH=$PATH.';'.rootpath.'\little_unix_for_windows\usr\bin'
+let $PATH=$PATH.';'.rootpath.'\ctags58\bin'
+
+" Global options that can change the plugin behaviour on loading
+set nocompatible
+" let g:vim_cache_directory=rootpath.'\..\..\vimcache'
+
+exe 'set packpath+='.fnamemodify($VIMFILES, ':p')
+

@@ -76,11 +76,8 @@ Configure vimfiles
 ------------------
 
 In the "vimfiles" subfolder there are some usefull plugin. If you want you can
-remove them: just delete all the content of the vimfiles/bundle directory to
-get a plain vim installation. Indeed a plugin will remain installed: Tim Pop's
-pathogen in the vimfiles/pathogen directory. I suggest you to keep it since it
-is a very common plugin manager (a tool that will help you to install easly any
-other plugin).
+remove them: just delete all the content of the vimfiles/pack directory to
+get a plain vim installation.
 
 Note that, also if you decide do not use any plugin, you still should keep the
 "vimfiles" directory and the contained vimrc file. These directory and file are
@@ -92,7 +89,7 @@ Please note that, if you decide to keep the plugins, there is a binary one.
 However the source code is included so if you want you can recompile it with
 (if you have a gnu toolchain installed):
 
-> cd vimfiles/bundle/vimproc.vim
+> cd vimfiles/all/start/vimproc.vim
 > make clean
 > rm -f autoload/*.so
 > rm -f autoload/*.dll

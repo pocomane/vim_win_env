@@ -1,0 +1,10 @@
+
+" Load from your vimrc with:
+"   let $VIMFILES="~/.vim"
+"   so $VIMFILES/vimrc.linux
+
+" Global options that can change the plugin behaviour on loading
+set nocompatible
+
+exe 'set packpath+='.fnamemodify($VIMFILES, ':p')
+
