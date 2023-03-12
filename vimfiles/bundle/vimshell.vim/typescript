@@ -1,7 +1,0 @@
-Script started on lun 05 ott 2015 17:14:38 CEST
-]0;user@ubuntino: ~/.vim/bundle/vimshell.vimuser@ubuntino:~/.vim/bundle/vimshell.vim$ ls
-[0m[34mautoload[0m  [34mdoc[0m  [00mls[0m  [34mplugin[0m  [32mREADME.md[0m  [34mrplugin[0m  [34msyntax[0m  [34mtest[0m  [00mtypescript[0m
-]0;user@ubuntino: ~/.vim/bundle/vimshell.vimuser@ubuntino:~/.vim/bundle/vimshell.vim$ exit
-exit
-
-Script done on lun 05 ott 2015 17:14:41 CEST
