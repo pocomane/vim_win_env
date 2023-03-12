@@ -1,4 +1,6 @@
 
+call my_font#include()
+
 call vim_async#include()
 
 call vim_auto_files#include()

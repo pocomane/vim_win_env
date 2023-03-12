@@ -66,3 +66,5 @@ set wildmode=full
 " noremap <Down> <nop>
 " noremap <Left> <nop>
 
+let g:markdown_fenced_languages = ['c','js=javascript','lua','go']
+

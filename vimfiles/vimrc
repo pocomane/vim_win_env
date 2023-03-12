@@ -1,16 +1,0 @@
-
-" This option will change other ones.
-" So it is better to call it before anything else.
-set nocompatible
-
-" Pathogen plugin manager
-runtime pathogen/autoload/pathogen.vim
-execute pathogen#infect()
-
-" Distributed vimrc
-"   Do not modify this file. Instead, make a subfolder in bundle and
-"   place an rc.vim file in it. It will be recalled right now.
-runtime! rc.vim
-
-let @o="ma/\\(and\\|,\\)mb`ay0A[p`bwyt.y$jA mcp`bdt'`c"
-
