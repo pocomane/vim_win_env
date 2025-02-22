@@ -3,7 +3,8 @@ function! timestamp#include()
 endfunction
 
 function!  MyTimestamp()
-  r !date '+\%Y-\%m-\%d \%H:\%M [UTC\%z,\%U,\%a,\%b]'
+  let dat = strftime('%Y-%m-%d %H:%M:%S [UTC%z,%a,%h]')
+  call append(line('.'), dat)
 endfunction
 
 :nnoremap <Leader>tt :call MyTimestamp()<CR>
