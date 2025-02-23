@@ -12,8 +12,8 @@ function!  MyZkNote()
   execute cmd
 endfunction
 
-function!  MyZkCopyLink()
-  let lnk='[link]('.expand('%:t').')'
+function!  MyZkCopyLinkCursor()
+  let lnk='[link]('..expand("<cfile>")..')'
   let @"=lnk
   echo "link copied: ".lnk
 endfunction
@@ -25,6 +25,7 @@ function!  MyZkFind()
 endfunction
 
 :nnoremap <Leader>ze :call MyZkNote()<CR>
-:nnoremap <Leader>zl :call MyZkCopyLink()<CR>
+:nnoremap <Leader>zl :call MyZkCopyLinkFile()<CR>
+:nnoremap <Leader>zc :call MyZkCopyLinkCursor()<CR>
 :nnoremap <Leader>zf :call MyZkFind()<CR>
 
